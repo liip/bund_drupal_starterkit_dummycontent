@@ -1,0 +1,14 @@
+# A "migration group" is - surprise! - a group of migrations. It is used to
+# group migrations for display by our tools, and to perform operations on a
+# specific set of migrations. It can also be used to hold any configuration
+# common to those migrations, so it doesn't have to be duplicated in each one.
+
+# The machine name of the group, by which it is referenced in individual
+# migrations.
+id: bund_drupal_starterkit_dummycontent
+
+# A human-friendly label for the group.
+label: Bund Drupal Starterkit Dummy Content CSV
+
+# More information about the group.
+description: Imports of menus and contents as an example for a Federal website.
