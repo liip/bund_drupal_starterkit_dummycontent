@@ -1,82 +1,257 @@
 MENU_NAME;ID;Parent_ID;Level_1;Level_2;Level_3
-main-navigation-en;1;;Menu 1;;;
-main-navigation-en;2;1;Menu 1;Menu 1.1;;
-main-navigation-en;3;2;Menu 1;Menu 1.1;Menu 1.1.1;
-main-navigation-en;4;2;Menu 1;Menu 1.1;Menu 1.1.2;
-main-navigation-en;5;2;Menu 1;Menu 1.1;Menu 1.1.3;
-main-navigation-en;6;2;Menu 1;Menu 1.1;Menu 1.1.4;
-main-navigation-en;7;2;Menu 1;Menu 1.1;Menu 1.1.5;
-main-navigation-en;8;1;Menu 1;Menu 1.2;;
-main-navigation-en;9;8;Menu 1;Menu 1.2;Menu 1.2.1;
-main-navigation-en;10;8;Menu 1;Menu 1.2;Menu 1.2.2;
-main-navigation-en;11;8;Menu 1;Menu 1.2;Menu 1.2.3;
-main-navigation-en;12;1;Menu 1;Menu 1.3;;
-main-navigation-en;13;12;Menu 1;Menu 1.3;Menu 1.3.1;
-main-navigation-en;14;12;Menu 1;Menu 1.3;Menu 1.3.2;
-main-navigation-en;15;12;Menu 1;Menu 1.3;Menu 1.3.3;
-main-navigation-en;16;12;Menu 1;Menu 1.3;Menu 1.3.4;
-main-navigation-en;17;12;Menu 1;Menu 1.3;Menu 1.3.5;
-main-navigation-en;18;;Menu 2;;;
-main-navigation-en;19;18;Menu 2;Menu 2.1;;
-main-navigation-en;20;18;Menu 2;Menu 2.2;;
-main-navigation-en;21;18;Menu 2;Menu 2.3;;
-main-navigation-fr;101;;Menu 1 FR;;;
-main-navigation-fr;102;101;Menu 1 FR;Menu 1.1;;
-main-navigation-fr;103;102;Menu 1 FR;Menu 1.1;Menu 1.1.1;
-main-navigation-fr;104;102;Menu 1 FR;Menu 1.1;Menu 1.1.2;
-main-navigation-fr;105;102;Menu 1 FR;Menu 1.1;Menu 1.1.3;
-main-navigation-fr;106;102;Menu 1 FR;Menu 1.1;Menu 1.1.4;
-main-navigation-fr;107;102;Menu 1 FR;Menu 1.1;Menu 1.1.5;
-main-navigation-fr;108;101;Menu 1 FR;Menu 1.2;;
-main-navigation-fr;109;108;Menu 1 FR;Menu 1.2;Menu 1.2.1;
-main-navigation-fr;110;108;Menu 1 FR;Menu 1.2;Menu 1.2.2;
-main-navigation-fr;111;108;Menu 1 FR;Menu 1.2;Menu 1.2.3;
-main-navigation-fr;112;101;Menu 1 FR;Menu 1.3;;
-main-navigation-fr;113;112;Menu 1 FR;Menu 1.3;Menu 1.3.1;
-main-navigation-fr;114;112;Menu 1 FR;Menu 1.3;Menu 1.3.2;
-main-navigation-fr;115;112;Menu 1 FR;Menu 1.3;Menu 1.3.3;
-main-navigation-fr;116;112;Menu 1 FR;Menu 1.3;Menu 1.3.4;
-main-navigation-fr;117;112;Menu 1 FR;Menu 1.3;Menu 1.3.5;
-main-navigation-fr;118;;Menu 2;;;
-main-navigation-fr;119;118;Menu 2;Menu 2.1;;
-main-navigation-fr;120;118;Menu 2;Menu 2.2;;
-main-navigation-fr;121;118;Menu 2;Menu 2.3;;
-main-navigation-de;201;;Menu 1 DE;;;
-main-navigation-de;201;;Menu 2 DE;;;
-main-navigation-it;301;;Menu 1 IT;;;
-main-navigation-it;302;;Menu 2 IT;;;
-main-navigation-rm;401;;Menu 1 RM;;;
-main-navigation-rm;402;;Menu 2 RM;;;
-
-service-navigation-en;501;;Emergencies;;;
-service-navigation-en;502;;Jobs;;;
-service-navigation-en;503;;Media;;;
-service-navigation-en;504;;Contact;;;
-service-navigation-fr;601;;Emergencies FR;;;
-service-navigation-fr;602;;Jobs FR;;;
-service-navigation-fr;603;;Media FR;;;
-service-navigation-fr;604;;Contact FR;;;
-service-navigation-de;701;;Emergencies DE;;;
-service-navigation-de;702;;Jobs DE;;;
-service-navigation-de;703;;Media DE;;;
-service-navigation-de;704;;Contact DE;;;
-service-navigation-it;801;;Emergencies IT;;;
-service-navigation-it;802;;Jobs IT;;;
-service-navigation-it;803;;Media IT;;;
-service-navigation-it;804;;Contact IT;;;
-service-navigation-rm;901;;Emergencies RM;;;
-service-navigation-rm;902;;Jobs RM;;;
-service-navigation-rm;903;;Media RM;;;
-service-navigation-rm;904;;Contact RM;;;
-
-footer-service-nav-en;1001;;Legal information;;;
-footer-service-nav-en;1002;;Impressum;;;
-footer-service-nav-fr;1101;;Legal information FR;;;
-footer-service-nav-fr;1102;;Impressum FR;;;
-footer-service-nav-de;1201;;Legal information DE;;;
-footer-service-nav-de;1202;;Impressum DE;;;
-footer-service-nav-it;1301;;Legal information IT;;;
-footer-service-nav-it;1302;;Impressum IT;;;
-footer-service-nav-rm;1401;;Legal information RM;;;
-footer-service-nav-rm;1402;;Impressum RM;;;
-
+main-navigation-de;1;;Richtlinie für das Webdesign Bund;;
+main-navigation-de;2;1;;Anwendung der Webrichtlinien Bund;
+main-navigation-de;3;1;;Markenelemente;
+main-navigation-de;4;1;;Grundraster und Seitentypen;
+main-navigation-de;5;1;;Beispielseiten;
+main-navigation-de;6;1;;Header und Footer;
+main-navigation-de;7;1;;Ausgabe auf verschiedenen Endgeräten;
+main-navigation-de;8;1;;Barrierefreiheit;
+main-navigation-de;9;1;;Übersetzungen;
+main-navigation-de;10;;Grundraster;;
+main-navigation-de;11;10;;Formular-Elemente;
+main-navigation-de;12;11;;;Gruppierung von Formular-Elementen
+main-navigation-de;13;11;;;Eingabefelder
+main-navigation-de;14;11;;;Auswahllisten
+main-navigation-de;15;11;;;Checkboxen
+main-navigation-de;16;11;;;Radio buttons
+main-navigation-de;17;11;;;Schaltflächen
+main-navigation-de;18;11;;;Gruppen von Schaltflächen
+main-navigation-de;19;10;;Allgemeines;
+main-navigation-de;20;19;;;Logo
+main-navigation-de;21;19;;;Farbpalette
+main-navigation-de;22;19;;;Hintergrund
+main-navigation-de;23;19;;;Bildformate
+main-navigation-de;24;19;;;Standardbild
+main-navigation-de;25;19;;;Bild mit Legende
+main-navigation-de;26;19;;;Bildformate
+main-navigation-de;27;19;;;Icons
+main-navigation-de;28;10;;Tabellen;
+main-navigation-de;29;28;;;Standardtabelle
+main-navigation-de;30;28;;;Verschachtelte Tabelle (einfach)
+main-navigation-de;31;28;;;Verschachtelte Tabelle (mehrfach)
+main-navigation-de;32;28;;;Tabelle mit Überschrift
+main-navigation-de;33;28;;;Tabelle mit Zebra
+main-navigation-de;34;28;;;Verschachtelte Tabelle mit Zebra (einfach)
+main-navigation-de;35;28;;;Verschachtelte Tabelle mit Zebra (mehrfach)
+main-navigation-de;36;28;;;Zebra-Tabelle mit Überschrift
+main-navigation-de;37;28;;;Tabelle mit Hervorhebung
+main-navigation-de;38;28;;;Verschachtelte Tabelle mit Hervorhebung (einfach)
+main-navigation-de;39;28;;;Verschachtelte Tabelle mit Hervorhebung (mehrfach)
+main-navigation-de;40;28;;;Tabelle mit Überschrift und Hervorhebung
+main-navigation-de;41;28;;;Sortierbare Tabelle
+main-navigation-de;42;28;;;Tabelle mit aufklappbarer Zeile
+main-navigation-de;43;28;;;Linierte Tabelle
+main-navigation-de;44;28;;;Tabelle ohne Linien
+main-navigation-de;45;10;;Typography;
+main-navigation-de;46;45;;;Überschriften
+main-navigation-de;47;45;;;Absätze
+main-navigation-de;48;45;;;Fliesstext
+main-navigation-de;49;45;;;Zitat
+main-navigation-de;50;45;;;Listen
+main-navigation-de;51;45;;;Liste ohne Nummerierung oder Punkte
+main-navigation-de;52;45;;;Definitionsliste
+main-navigation-de;53;45;;;Links
+main-navigation-de;54;45;;;Link zum Seitenanfang
+main-navigation-de;55;45;;;Seitenende-Link
+main-navigation-de;56;;Navigations-module;;
+main-navigation-de;57;56;;Hierarchische Navigation;
+main-navigation-de;58;57;;;Globalnavigation
+main-navigation-de;59;57;;;Breadcrumb
+main-navigation-de;60;57;;;Zurück zur Übersicht
+main-navigation-de;61;57;;;Seitennavigation Liste (Linke Subnavigation)
+main-navigation-de;62;57;;;Seitennavigation Facette
+main-navigation-de;63;56;;Kopfbereich;
+main-navigation-de;64;63;;;Logo mit Link auf die Startseite
+main-navigation-de;65;63;;;Barrierefreie Navigation
+main-navigation-de;66;63;;;Servicenavigation
+main-navigation-de;67;63;;;Site search
+main-navigation-de;68;63;;;Sprachwahl
+main-navigation-de;69;63;;;Themen A-Z
+main-navigation-de;70;63;;;Treecrumb Bundesverwaltung
+main-navigation-de;71;56;;Inhaltsnavigation;
+main-navigation-de;72;71;;;Paging
+main-navigation-de;73;71;;;Anker-Links
+main-navigation-de;74;71;;;Prozessnavigation
+main-navigation-de;75;71;;;Reiter-Navigation
+main-navigation-de;76;56;;Seitenfuss (Footer);
+main-navigation-de;77;76;;;Sitemap und Partner
+main-navigation-de;78;76;;;Social Media
+main-navigation-de;79;76;;;Fusszeile
+main-navigation-de;80;;Inhaltsmodule;;
+main-navigation-de;81;80;;Standardelemente;
+main-navigation-de;82;81;;;Seitentitel
+main-navigation-de;83;81;;;Text und Bild
+main-navigation-de;84;81;;;Infobox
+main-navigation-de;85;80;;Inhaltscontainer;
+main-navigation-de;86;85;;;Elemente-Liste
+main-navigation-de;87;85;;;Weiterführende Informationen
+main-navigation-de;88;85;;;Klapp-Box
+main-navigation-de;89;80;;Widgets;
+main-navigation-de;90;89;;;Hinweise
+main-navigation-de;91;89;;;Krisenbanner
+main-navigation-de;92;89;;;Kontaktbox
+main-navigation-de;93;80;;Funktionen;
+main-navigation-de;94;93;;;Drucken
+main-navigation-de;95;93;;;Inhalte teilen (Social sharing)
+main-navigation-de;96;93;;;Datei download
+main-navigation-de;97;80;;Teaser;
+main-navigation-de;98;97;;;Brennpunkt
+main-navigation-de;99;97;;;Neuigkeiten
+main-navigation-de;100;97;;;Titelzeile für Teaser
+main-navigation-de;101;97;;;Karussell
+main-navigation-de;102;97;;;Slideshow
+main-navigation-de;103;97;;;Textteaser
+main-navigation-de;104;97;;;Dossierteaser
+main-navigation-de;105;97;;;Personenteaser
+main-navigation-de;106;97;;;Publikationen-Vorschau
+main-navigation-de;107;97;;;News Feed
+main-navigation-de;108;97;;;RSS-Feed
+main-navigation-de;109;80;;Multimedia;
+main-navigation-de;110;109;;;Bildgalerie Übersicht
+main-navigation-de;111;109;;;Bildergalerie Einzelansicht
+main-navigation-de;112;109;;;Lightbox
+main-navigation-de;113;80;;Suche;
+main-navigation-de;114;113;;;Suchmaske
+main-navigation-de;115;113;;;Suchergebnisse
+main-navigation-de;116;80;;Bestellen und Check-out;
+main-navigation-de;117;116;;;Einzeiliges Bestell-Formular
+main-navigation-de;118;116;;;Einkaufswagen
+main-navigation-de;119;;Beispielseiten;;
+main-navigation-de;120;119;;Startseite ohne Hauptnavigation;
+main-navigation-de;121;119;;Startseite mit Hauptnavigation;
+main-navigation-de;122;119;;Übersichtsseite;
+main-navigation-de;123;119;;Übersichtsseite ohne Hauptnavigation;
+main-navigation-de;124;119;;Publikationen;
+main-navigation-de;125;119;;Detailseite;
+main-navigation-de;126;119;;Formular;
+main-navigation-de;127;119;;Suchergebnisse;
+main-navigation-de;128;119;;Unterseite;
+main-navigation-fr;129;;Design web de la Confédération;;
+main-navigation-fr;130;129;;Application des lignes directrices web de la Confédération;
+main-navigation-fr;131;129;;Eléments de marque;
+main-navigation-fr;132;129;;Grille de base et types de pages;
+main-navigation-fr;133;129;;Pages d’exemple;
+main-navigation-fr;134;129;;En-tête et pied de page;
+main-navigation-fr;135;129;;Rendu sur différents appareils;
+main-navigation-fr;136;129;;Accessibilité;
+main-navigation-fr;137;129;;Traductions;
+main-navigation-fr;138;;Grille de base;;
+main-navigation-fr;139;138;;Eléments de formulaire;
+main-navigation-fr;140;139;;;Regroupement d’éléments de formulaire
+main-navigation-fr;141;139;;;Champs de saisie
+main-navigation-fr;142;139;;;Listes de sélection
+main-navigation-fr;143;139;;;Cases à cocher
+main-navigation-fr;144;139;;;Boutons radio
+main-navigation-fr;145;139;;;Boutons
+main-navigation-fr;146;139;;;Groupes de boutons
+main-navigation-fr;147;138;;Généralités;
+main-navigation-fr;148;147;;;Logo
+main-navigation-fr;149;147;;;Palette de couleurs
+main-navigation-fr;150;147;;;Arrière-plan
+main-navigation-fr;151;147;;;Formats d’image
+main-navigation-fr;152;147;;;Image standard
+main-navigation-fr;153;147;;;Image avec légende
+main-navigation-fr;154;147;;;Formats d’image
+main-navigation-fr;155;147;;;Icônes
+main-navigation-fr;156;138;;Tableaux;
+main-navigation-fr;157;156;;;Tableau standard
+main-navigation-fr;158;156;;;Tableau imbriqué (simple)
+main-navigation-fr;159;156;;;Tableau imbriqué (multiple)
+main-navigation-fr;160;156;;;Tableau avec titre
+main-navigation-fr;161;156;;;Tableau avec fonds alternés
+main-navigation-fr;162;156;;;Tableau imbriqué avec fonds alternés (simple)
+main-navigation-fr;163;156;;;Tableau imbriqué avec fonds alternés (multiple)
+main-navigation-fr;164;156;;;Tableau à fonds alternés avec titre
+main-navigation-fr;165;156;;;Tableau avec mise en évidence
+main-navigation-fr;166;156;;;Tableau imbriqué avec mise en évidence (simple)
+main-navigation-fr;167;156;;;Tableau imbriqué avec mise en évidence (multiple)
+main-navigation-fr;168;156;;;Tableau avec titre et mise en évidence
+main-navigation-fr;169;156;;;Tableau triable
+main-navigation-fr;170;156;;;Tableau avec masquage et affichage de lignes
+main-navigation-fr;171;156;;;Tableau avec lignes
+main-navigation-fr;172;156;;;Tableaux sans lignes
+main-navigation-fr;173;138;;Typographie;
+main-navigation-fr;174;173;;;Titres
+main-navigation-fr;175;173;;;Paragraphes
+main-navigation-fr;176;173;;;Corps de texte
+main-navigation-fr;177;173;;;Citation
+main-navigation-fr;178;173;;;Listes
+main-navigation-fr;179;173;;;Liste sans numérotation ou puces
+main-navigation-fr;180;173;;;Liste de définitions
+main-navigation-fr;181;173;;;Liens
+main-navigation-fr;182;173;;;Lien vers le haut de page
+main-navigation-fr;183;173;;;Lien de fin de page
+main-navigation-fr;184;;Modules de navigation;;
+main-navigation-fr;185;184;;Navigation hiérarchique;
+main-navigation-fr;186;185;;;Navigation globale
+main-navigation-fr;187;185;;;Fil d’Ariane
+main-navigation-fr;188;185;;;Retour à l’aperçu
+main-navigation-fr;189;185;;;Liste de navigation latérale (sous-navigation de gauche)
+main-navigation-fr;190;185;;;Navigation à facettes
+main-navigation-fr;191;184;;Zone d’en-tête;
+main-navigation-fr;192;191;;;Logo avec lien vers la page d’accueil
+main-navigation-fr;193;191;;;Navigation accessible
+main-navigation-fr;194;191;;;Navigation de service
+main-navigation-fr;195;191;;;Recherche sur le site
+main-navigation-fr;196;191;;;Choix de la langue
+main-navigation-fr;197;191;;;Thèmes A-Z
+main-navigation-fr;198;191;;;Arborescence de l’administration fédérale
+main-navigation-fr;199;184;;Navigation de contenu;
+main-navigation-fr;200;199;;;Pagination
+main-navigation-fr;201;199;;;Liens d’ancre
+main-navigation-fr;202;199;;;Navigation de processus
+main-navigation-fr;203;199;;;Navigation par onglets
+main-navigation-fr;204;184;;Pied de page (footer);
+main-navigation-fr;205;204;;;Sitemap (plan du site) et partenaires
+main-navigation-fr;206;204;;;Médias sociaux
+main-navigation-fr;207;204;;;Ligne de pied de page
+main-navigation-fr;208;;Modules de contenu;;
+main-navigation-fr;209;208;;Eléments standard;
+main-navigation-fr;210;209;;;Titre de page
+main-navigation-fr;211;209;;;Texte et image
+main-navigation-fr;212;209;;;Encadré d’information
+main-navigation-fr;213;208;;Conteneurs;
+main-navigation-fr;214;213;;;Liste d’éléments
+main-navigation-fr;215;213;;;Informations complémentaires
+main-navigation-fr;216;213;;;Encadré rétractable
+main-navigation-fr;217;208;;Widgets;
+main-navigation-fr;218;217;;;Remarques
+main-navigation-fr;219;217;;;Bannière de crise
+main-navigation-fr;220;217;;;Encadré de contact
+main-navigation-fr;221;208;;Fonctions;
+main-navigation-fr;222;221;;;Imprimer
+main-navigation-fr;223;221;;;Partager des contenus (Social sharing)
+main-navigation-fr;224;221;;;Téléchargement de fichier
+main-navigation-fr;225;208;;Teaser;
+main-navigation-fr;226;225;;;A la une
+main-navigation-fr;227;225;;;Actualités
+main-navigation-fr;228;225;;;Barre de titre pour teaser
+main-navigation-fr;229;225;;;Carrousel
+main-navigation-fr;230;225;;;Diaporama
+main-navigation-fr;231;225;;;Teaser de texte
+main-navigation-fr;232;225;;;Teaser de dossier
+main-navigation-fr;233;225;;;Teaser de personne
+main-navigation-fr;234;225;;;Présentation des publications
+main-navigation-fr;235;225;;;Flux d’actualités
+main-navigation-fr;236;225;;;Flux RSS
+main-navigation-fr;237;208;;Multimédia;
+main-navigation-fr;238;237;;;Aperçu de galerie d’images
+main-navigation-fr;239;237;;;Galerie d’images – vue individuelle
+main-navigation-fr;240;237;;;Visionneuse
+main-navigation-fr;241;208;;Recherche;
+main-navigation-fr;242;241;;;Masque de recherche
+main-navigation-fr;243;241;;;Résultats de recherche
+main-navigation-fr;244;208;;Commande et check-out;
+main-navigation-fr;245;244;;;Formulaire de commande à une ligne
+main-navigation-fr;246;244;;;Panier
+main-navigation-fr;247;;Pages d'exemple;;
+main-navigation-fr;248;247;;Page d’accueil sans navigation globale;
+main-navigation-fr;249;247;;Page d’accueil avec navigation globale;
+main-navigation-fr;250;247;;Page d’aperçu;
+main-navigation-fr;251;247;;Page d’aperçu sans navigation globale;
+main-navigation-fr;252;247;;Publications;
+main-navigation-fr;253;247;;Page de détails;
+main-navigation-fr;254;247;;Formulaire;
+main-navigation-fr;255;247;;Résultats de recherche;
+main-navigation-fr;256;247;;Sous-page;
