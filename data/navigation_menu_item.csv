@@ -1,4 +1,4 @@
-MENU_NAME;ID;Parent_ID;Level_1;Level_2;Level_3
+MENU_NAME;ID;Parent_ID;Level_1;Level_2;Level_3;Level_4;
 main-navigation-en;1;;Menu 1;;;
 main-navigation-en;2;1;Menu 1;Menu 1.1;;
 main-navigation-en;3;2;Menu 1;Menu 1.1;Menu 1.1.1;
@@ -80,3 +80,14 @@ footer-service-nav-it;1302;;Impressum IT;;;
 footer-service-nav-rm;1401;;Legal information RM;;;
 footer-service-nav-rm;1402;;Impressum RM;;;
 
+treecrumb-en;2001;;The federal Council;
+treecrumb-en;2002;2001;The federal Council;Federal Chancellery FC;
+treecrumb-en;2003;2001;The federal Council;Federal Department of Foreign Affairs FDFA;;
+treecrumb-en;2004;2003;The federal Council;Federal Department of Foreign Affairs FDFA;Switzerland’s foreign policy;
+treecrumb-en;2005;2004;The federal Council;Federal Department of Foreign Affairs FDFA;Switzerland’s foreign policy;Afghanistan;
+treecrumb-en;2006;2004;The federal Council;Federal Department of Foreign Affairs FDFA;Switzerland’s foreign policy;Albania;
+treecrumb-en;2007;2004;The federal Council;Federal Department of Foreign Affairs FDFA;Switzerland’s foreign policy;Algeria;
+
+treecrumb-en;2008;2003;The federal Council;Federal Department of Foreign Affairs FDFA;Switzerland’s policy on Europe;
+
+treecrumb-en;2009;2001;The federal Council;Federal Department of Home Affairs FDHA;;
