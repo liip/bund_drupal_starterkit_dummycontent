@@ -21,7 +21,7 @@ process:
   title: name
   menu_name: MENU_NAME
   'link/uri':
-    plugin: internal_uri
+    plugin: link_uri
     source:
       - link_path
   route_name: '@route/route_name'
